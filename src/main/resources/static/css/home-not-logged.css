@@ -1,0 +1,102 @@
+html,body{
+    background-color: black;
+    color: white;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+nav.ul{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: none;
+    margin: 10px;
+}
+a:hover{
+    color: orange;
+}
+#login{
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid orange;
+    border-radius: 10px;
+    width: 140px;
+    height: 35px;
+}
+#login:hover{
+    background-color: orange;
+    color: white;!important;
+    transition: 0.3s;
+    -webkit-box-shadow:0px 0px 23px 0px rgba(255,153,0,1);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(255,153,0,1);
+    box-shadow: 0px 0px 23px 0px rgba(255,153,0,1);
+}
+.slogan-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+#sign-up{
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid orange;
+    border-radius: 10px;
+    width: 240px;
+    height: 35px;
+}
+#sign-up:hover{
+    background-color: orange;
+    color: white;!important;
+    transition: 0.3s;
+    -webkit-box-shadow:0px 0px 23px 0px rgba(255,153,0,1);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(255,153,0,1);
+    box-shadow: 0px 0px 23px 0px rgba(255,153,0,1);
+}
+img{
+    width: 100%;
+}
+.card-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid orange;
+    border-radius: 10px;
+    width: 140px;
+    height: 35px;
+    background-color: transparent;
+}
+.btn:hover{
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;!important;
+    transition: 0.3s;
+    -webkit-box-shadow:0px 0px 23px 0px rgba(255,153,0,1);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(255,153,0,1);
+    box-shadow: 0px 0px 23px 0px rgba(255,153,0,1);
+}
+.card{
+    background-color: transparent;
+    text-align: center;
+}
+#contact{
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid orange;
+    border-radius: 10px;
+    width: 140px;
+    height: 35px;
+}
+#contact:hover{
+    background-color: orange;
+    color: white;!important;
+    transition: 0.3s;
+    -webkit-box-shadow:0px 0px 23px 0px rgba(255,153,0,1);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(255,153,0,1);
+    box-shadow: 0px 0px 23px 0px rgba(255,153,0,1);
+}
